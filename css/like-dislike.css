@@ -1,0 +1,41 @@
+/* like */
+.card-button-reaction{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-button-reaction:hover{
+    background: #4e73df;
+    color: #fff;
+}
+.card-button-reaction.active{
+    background: #4e73df;
+    color: #fff;
+}
+
+/* dislike */
+.card-button-reaction-dislike{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-button-reaction-dislike:hover{
+    background: #e32c10;
+    color: #fff;
+}
+.card-button-reaction-dislike.active{
+    background: #e32c10;
+    color: #fff;
+}
+
+
+/* report */
+.card-button-reaction.report:hover{
+    background: #ff9f67;
+    color: #fff;
+}
+.card-button-reaction.report.active{
+    background: #ff9f67;
+    color: #fff;
+}
+
